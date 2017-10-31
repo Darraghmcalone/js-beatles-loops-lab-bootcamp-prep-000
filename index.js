@@ -6,20 +6,20 @@ function theBeatlesPlay(musicians, instruments) {
    }
    return newArr;
  }
- 
+
  function johnLennonFacts(facts) {
    var arr = []
    let i = facts.length
    let j = 0
    while (i != 0) {
- 
+
      arr.push(`${facts[j]}` + "!!!")
      --i
      ++j
    }
    return arr
  }
- 
+
  function iLoveTheBeatles(number) {
    let arr = []
    do {
